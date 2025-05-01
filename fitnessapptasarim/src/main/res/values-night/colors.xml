@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="purple">#C10FF2</color>
-    <color name="lightGreen">#D0F252</color>
-    <color name="darkGreen">#667302</color>
-    <color name="mediumGreen">#B4BF60</color>
-    <color name="paleGreen">#D2D99C</color>
+    <color name="purple">#A50CD0</color>
+    <color name="lightGreen">#A5C242</color>
+    <color name="darkGreen">#4D5601</color>
+    <color name="mediumGreen">#818A45</color>
+    <color name="paleGreen">#3D4020</color>
     <color name="colorPrimary">@color/darkGreen</color>
-    <color name="colorPrimaryDark">#4D5601</color>
+    <color name="colorPrimaryDark">#333C01</color>
     <color name="colorAccent">@color/purple</color>
-    <color name="backgroundColor">#FFFFFF</color>
-    <color name="cardBackgroundColor">@color/mediumGreen</color>
+    <color name="backgroundColor">#121212</color>
+    <color name="cardBackgroundColor">#2A2A2A</color>
     <color name="headerBackgroundColor">@color/darkGreen</color>
-    <color name="progressBackgroundColor">@color/mediumGreen</color>
+    <color name="progressBackgroundColor">#3A3A3A</color>
     <color name="titleTextColor">@color/lightGreen</color>
-    <color name="primaryTextColor">@color/darkGreen</color>
-    <color name="secondaryTextColor">@color/darkGreen</color>
+    <color name="primaryTextColor">@color/lightGreen</color>
+    <color name="secondaryTextColor">@color/lightGreen</color>
     <color name="iconTintColor">@color/purple</color>
     <color name="bottomNavActive">@color/purple</color>
     <color name="bottomNavInactive">@color/lightGreen</color>

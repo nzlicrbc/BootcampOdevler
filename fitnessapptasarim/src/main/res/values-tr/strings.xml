@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">FitnessPro</string>
+    <string name="app_title">FitnessPro</string>
+    <string name="settings">Ayarlar</string>
+    <string name="language">Dil</string>
+    <string name="user_name">Merhaba, Nazlı</string>
+    <string name="user_stats">Seviye: 5 | Puan: 350</string>
+    <string name="daily_progress">Günlük İlerleme</string>
+    <string name="steps_count">7.500 Adım</string>
+    <string name="steps_goal">Hedef: 10.000</string>
+    <string name="cardio">Kardiyovasküler</string>
+    <string name="strength">Güç Antrenmanı</string>
+    <string name="yoga">Yoga</string>
+    <string name="stretching">Esneme</string>
+    <string name="home">Ana Sayfa</string>
+    <string name="workouts">Antrenmanlar</string>
+    <string name="nutrition">Beslenme</string>
+    <string name="profile">Profil</string>
+</resources>
