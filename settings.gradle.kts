@@ -22,3 +22,4 @@ dependencyResolutionManagement {
 rootProject.name = "BootcampOdevler"
 include(":app")
 include(":fitnessapptasarim")
+include(":navigationcomponent")

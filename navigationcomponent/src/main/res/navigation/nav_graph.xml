@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.example.navigationcomponent.HomeFragment"
+        android:label="ANASAYFA"
+        tools:layout="@layout/fragment_home">
+        <action
+            android:id="@+id/action_home_to_pageA"
+            app:destination="@id/pageAFragment" />
+        <action
+            android:id="@+id/action_home_to_pageX"
+            app:destination="@id/pageXFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/pageAFragment"
+        android:name="com.example.navigationcomponent.PageAFragment"
+        android:label="SAYFA A"
+        tools:layout="@layout/fragment_page_a">
+        <action
+            android:id="@+id/action_pageA_to_pageB"
+            app:destination="@id/pageBFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/pageBFragment"
+        android:name="com.example.navigationcomponent.PageBFragment"
+        android:label="SAYFA B"
+        tools:layout="@layout/fragment_page_b">
+        <action
+            android:id="@+id/action_pageB_to_pageY"
+            app:destination="@id/pageYFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/pageXFragment"
+        android:name="com.example.navigationcomponent.PageXFragment"
+        android:label="SAYFA X"
+        tools:layout="@layout/fragment_page_x">
+        <action
+            android:id="@+id/action_pageX_to_pageY"
+            app:destination="@id/pageYFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/pageYFragment"
+        android:name="com.example.navigationcomponent.PageYFragment"
+        android:label="SAYFA Y"
+        tools:layout="@layout/fragment_page_y">
+        <action
+            android:id="@+id/action_pageY_to_home"
+            app:destination="@id/homeFragment"
+            app:popUpTo="@id/homeFragment"
+            app:popUpToInclusive="true" />
+    </fragment>
+</navigation>
